@@ -1,6 +1,6 @@
 import React from "react";
 import img from "../../assets/img/foto_para_promoción.png";
-export const Promo = () => {
+ const Promo = () => {
   return (
     <section className="mb-16 flex w-full justify-center bg-gray-200 py-20">
       <div className="flex w-full flex-col md:w-6/12 md:flex-row">
@@ -47,3 +47,5 @@ export const Promo = () => {
     </section>
   );
 };
+
+export default Promo;
