@@ -54,7 +54,7 @@ const Category = () => {
       </div>
       <div className="mx-auto grid w-9/12 md:grid-cols-3 gap-x-10">
         {cards.map((card) => (
-          <div className="col-span-1">
+          <div className="col-span-1" key={card.id}>
             <div className="border-2 border-black">
               <img src={card.img} className="w-full" alt="" />
             </div>
