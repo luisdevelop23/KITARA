@@ -16,7 +16,7 @@ function App() {
       <Carousel />
       <Category />
       <Promo />
-      <Catalog />
+      <Catalog/>
       <Footer />
       <NavMovile />
     </>
