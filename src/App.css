@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "BebasNeue";
+  src: url(assets/fonts/BebasNeue-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaBook";
+  src: url(assets/fonts/futura-book-bt.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaBold";
+  src: url(assets/fonts/FuturaBoldBT.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaMedium";
+  src: url(assets/fonts/FuturaMediumBT.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bebas {
+  font-family: "BebasNeue", sans-serif;
+}
+
+.futura-book {
+  font-family: "FuturaBook", sans-serif;
+}
+
+.futura-bold {
+  font-family: "FuturaBold", sans-serif;
+  font-weight: bold;
+}
+
+.futura-medium {
+  font-family: "FuturaMedium", sans-serif;
+}
+
+/* nav */
+.bg-nav {
+  background-color: #ffffffcb;
+}
+
+/* cover */
+.img-cover {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
+  
+  
