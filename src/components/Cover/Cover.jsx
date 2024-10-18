@@ -18,7 +18,7 @@ const Cover = () => {
         </div>
       </div>
       <div className="md:w-6/12 w-full bg-red-300 ">
-        <img className="img-cover" src={coverImg} alt="" />
+        <img className="img-cover mx-auto w-full" src={coverImg} alt="" />
       </div>
       {/* Sobrepuesto */}
       <div></div>

@@ -5,7 +5,7 @@ import Cover from "./components/Cover/Cover";
 import Footer from "./components/Footer/Footer";
 import NavMovile from "./components/NavMovile/NavMovile";
 import Navbar from "./components/Navbar/Navbar";
-import { Promo } from "./components/Promo/Promo";
+import Promo from "./components/Promo/Promo";
 import Catalog from "./components/catalog/catalog";
 
 function App() {
@@ -16,9 +16,9 @@ function App() {
       <Carousel />
       <Category />
       <Promo />
-      <Catalog/>
-      <Footer/>
-      <NavMovile/>
+      <Catalog />
+      <Footer />
+      <NavMovile />
     </>
   );
 }
